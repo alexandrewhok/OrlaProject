@@ -1,4 +1,10 @@
+import { Message, Wrapper } from "./styles";
+
 function Footer() {
-  return <div>contactos orla</div>;
+  return (
+    <Wrapper>
+      <Message>instagram: @orlaproject | mail: orlaprojects@gmail.com</Message>
+    </Wrapper>
+  );
 }
 export default Footer;
