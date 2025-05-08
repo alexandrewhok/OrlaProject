@@ -1,6 +1,6 @@
 {
   "name": "orla-project",
-  "homepage": "https://alexandrewhok.github.io/OrlaProject/",
+  "homepage": "https://alexandrewhok.github.io/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,9 +8,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^19.0.0",
