@@ -17,12 +17,12 @@ function HomeScreen() {
   return (
     <Wrapper>
       <ContentLeft>
-        <StyledBigStar src="/OrlaProject/big-star.svg" alt="Big Star" />
+        <StyledBigStar src="/big-star.svg" alt="Big Star" />
         <TitleImage>Textos sobre arte</TitleImage>
       </ContentLeft>
       <ContentRight>
         <ProjectTitle>
-          <StyledOrla src="/OrlaProject/orla-logo.svg" alt="Orla logo" />
+          <StyledOrla src="/orla-logo.svg" alt="Orla logo" />
           <MadeBy>
             <MadeByText>por</MadeByText>
             <MadeByText>Maria Joana Vilela</MadeByText>
@@ -30,7 +30,7 @@ function HomeScreen() {
         </ProjectTitle>
         <OtherOccurrences>
           <OtherOccurrencesBlock>
-            <StyledSmallStar src="/OrlaProject/small-star.svg" alt="Big Star" />
+            <StyledSmallStar src="/small-star.svg" alt="Big Star" />
             <TitleImage>Outras ocorrências </TitleImage>
           </OtherOccurrencesBlock>
         </OtherOccurrences>
